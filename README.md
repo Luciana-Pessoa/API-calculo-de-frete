@@ -14,7 +14,6 @@ Modulo para consumo da `API` dos correios de calculo remoto de precos e prazos:
 - https://www.correios.com.br/atendimento/ferramentas/sistemas/arquivos/manual-de-implementacao-do-calculo-remoto-de-precos-e-prazos/view
 
 
-
 Implementação  de todos os metodos disponiveis na API, com acessores simples e fáceis. :)
 
 Para ganharmos um pouco de performance, usamos o wsdl salvo no folder [`./correios-data/CalcPrecoPrazo.xml`](./correios-data/CalcPrecoPrazo.xml), ao invés de fazermos o request inicial para isso.
